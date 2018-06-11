@@ -1,10 +1,10 @@
 import {
-  AUTH_LOGIN,
-  AUTH_LOGOUT,
-  AUTH_CHECK,
-  AUTH_ERROR,
-  AUTH_GET_PERMISSIONS
-} from 'admin-on-rest';
+    AUTH_GET_PERMISSIONS,
+    AUTH_LOGIN,
+    AUTH_LOGOUT,
+    AUTH_ERROR,
+    AUTH_CHECK,
+} from 'react-admin';
 import decodeJwt from 'jwt-decode';
 
 export default (client, options = {}) => (type, params) => {

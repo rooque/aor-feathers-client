@@ -1,13 +1,15 @@
 import {
-  GET_MANY,
-  GET_MANY_REFERENCE,
-  GET_LIST,
-  GET_ONE,
-  CREATE,
-  UPDATE,
-  DELETE
-} from 'admin-on-rest/lib/rest/types'
-import { fetchUtils } from 'admin-on-rest';
+    fetchUtils,
+    GET_LIST,
+    GET_ONE,
+    GET_MANY,
+    GET_MANY_REFERENCE,
+    CREATE,
+    UPDATE,
+    UPDATE_MANY,
+    DELETE,
+    DELETE_MANY,
+} from 'react-admin';
 import debug from 'debug'
 import diff from 'object-diff'
 
